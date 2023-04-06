@@ -25,6 +25,8 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 gem "devise"
+gem 'httparty'
+gem 'poke-api-v2'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
