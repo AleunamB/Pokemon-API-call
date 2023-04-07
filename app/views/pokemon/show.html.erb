@@ -1,3 +1,26 @@
+<div class="container">
+
+  <%# photo %>
+  <%= image_tag @pokemon.sprites.front_default %>
+
+  <%# name %>
+  <h1><%= @pokemon.name %></h1>
+
+  <%# type_name %>
+  <p><%= @pokemon.types[0].type.name %></p>
 
 
-<h1><%= @pokemon.name %></h1>
+  <%# move_name_0 %>
+  <p><%= @pokemon.moves[0].move.name %></p>
+
+  <%# move_name_1 %>
+  <p><%= @pokemon.moves[1].move.name %></p>
+
+  <%# move_name_2 %>
+  <p><%= @pokemon.moves[2].move.name %></p>
+
+
+  <%# number %>
+  <p>#<%= @pokemon.id %></p>
+  
+</div>
