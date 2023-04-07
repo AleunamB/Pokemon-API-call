@@ -1,3 +1,7 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-
+<div class="container">
+  <% if user_signed_in?  %>
+        <h2>Hi <%= current_user.first_name %>!</h2>
+        <h4>Check out my Pokemons!</h4>
+        <p>Which Pokemon do you want to see?</p>
+  <% end %>
+</div>
