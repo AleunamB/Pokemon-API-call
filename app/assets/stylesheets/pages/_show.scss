@@ -27,10 +27,37 @@
 }
 
 .btn-style{
+  display: flex;
   width: 160px;
   height: 40px;
   border: none;
+  text-decoration: none;
   background-color: #ffcb05;
   margin-top: 20px;
   border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-style-no {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  border: none;
+  text-decoration: none;
+  color: black;
+  background-color: #ffcb05;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 9px;
+}
+
+.btn-style-no:hover {
+  background-color: #FED148;
+  color: #c4c1c1;
+}
+
+.previous-next {
+  display: inline;
 }

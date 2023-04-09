@@ -32,8 +32,8 @@
   </div>
 
   <div class="previous-next">
-    <%= link_to "Go to # #{params[:id].to_i - 1}",      pokemon_path(params[:id].to_i - 1), class: "btn-style" %>
-    <%= link_to "Go to # #{params[:id].to_i + 1}",      pokemon_path(params[:id].to_i + 1), class: "btn-style" %>
+    <%= link_to "Go to # #{params[:id].to_i - 1}", pokemon_path(params[:id].to_i - 1), class: "btn-style-no" %>
+    <%= link_to "Go to # #{params[:id].to_i + 1}", pokemon_path(params[:id].to_i + 1), class: "btn-style-no" %>
   </div>
 
   </div>
