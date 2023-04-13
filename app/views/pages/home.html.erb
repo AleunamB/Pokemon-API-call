@@ -6,7 +6,7 @@
   <% end %>
 
   <%= form_tag pokemon_path(params[:id].to_i), method: :get do %>
-    <%= label_tag :search, "Search for a Pokemon by name or ID:" %>
+    <%= label_tag :search, "Search for a Pokemon by ID:" %>
     <%= text_field_tag :search, params[:search] %>
     <%= submit_tag "Search" %>
   <% end %>

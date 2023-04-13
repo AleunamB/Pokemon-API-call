@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   devise_for :users
   root to: "pages#home"
   get "/about", to: "pages#about"
+  get '/', to: 'pokemon#show'
   get "pokemon/:id", to: "pokemon#show"
-  get '/pokemon/search', to: 'pokemon#show', as: 'search_pokemon'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
